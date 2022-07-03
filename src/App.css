@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.division-of-img-contairner{
+  border-right: 1px solid rgba(128, 128, 128, 0.438);
+    width: 13em;
+    color: #333;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+h1
+{
+  
+  /* padding-left: 100px; */
+  font-weight: 600;
+  font-size: 38px;
+  
+}
+.container
+{
+  padding: 2em 0em;
+    /* background-color: #282c34; */
+    width: 75em;
+}
+.MAIN-SECTION-IN-MAIN-SCREEN{
+  display: flex;
+  justify-content: center;
+}
+.main-h1
+{
+      /* padding-left: 100px; */
+      font-weight: 600;
+      font-size: 38px;
+  
+}
+.Meesho 
+{
+
+  
+  font-size: 21px;
+  width: 98%;
+}
+
+.col
+{
+ width: 50%; 
+ float: left;
+}
+
+
+.col1{
+/* margin-top: 20%; */
+/* grid-template-rows: "auto"; */
+display: flex;
+justify-content: space-between;
+grid-template-rows: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(231, 238, 255);
+    border-radius: 10px;
+/*border-style: outset;*/
+
+/* color: ; */
+}
+.image1{
+   margin-top: 5%;
+  
+ width: 100px;
+ height: 100px;
+ 
+}
+
+.flex-image-centerin-dividion-con{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.division-of-img-contairner
+{
+  justify-content: center;
+  text-align: center;
+ 
+}
+.img-color
+{
+  color: #333;
+  font-weight: 500;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
